@@ -27,7 +27,7 @@ Token :: struct {
     type : TokenType,
     lexeme: string,
     literal: any,
-    line: int
+    line: int,
 }
 
 token_to_string :: proc (token: ^Token) -> string {
